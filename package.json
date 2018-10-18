@@ -1,0 +1,27 @@
+{
+  "name": "psqlcsv",
+  "version": "1.0.0",
+  "description": "Trivial psql CLI alternative that outputs proper CSV",
+  "main": "index.js",
+  "keywords": [
+    "psql",
+    "csv"
+  ],
+  "author": "George Pittarelli <g@gjp.cc>",
+  "license": "MIT",
+  "bin": {
+    "psqlcsv": "./psqlcsv.js"
+  },
+  "files": [
+    "psqlcsv.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpittarelli/psqlcsv.git"
+  },
+  "dependencies": {
+    "csv-stringify": "^4.3.1",
+    "pg": "^7.5.0",
+    "pg-query-stream": "^1.1.2"
+  }
+}
